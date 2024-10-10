@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.cv-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.photo img {
+    width: 130px;
+    height: 140px;
+    border-radius: 60%;
+    margin-right: 20px;
+}
+
+.name-title h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.name-title h2 {
+    font-size: 1.2em;
+    color: #777;
+}
+
+.name-title p {
+    font-size: 1em;
+    margin-bottom: 2px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+    width: 35%;
+    padding-right: 20px;
+    border-right: 2px solid #eaeaea;
+}
+
+.right-column {
+    width: 60%;
+    padding-left: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 2px solid #ff6363;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+ul li {
+    margin-bottom: 11px;
+}
+
+.job, .education-item {
+    margin-bottom: 15px;
+}
+
+
+.job h4, .education-item h4 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job p, .education-item p {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.skills ul li {
+    background-color: #ff6363;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
